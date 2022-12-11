@@ -4,5 +4,4 @@ pyrogram==1.4.16
 tgcrypto
 youtube-dl
 uuid
-git+https://files.pythonhosted.org/packages/01/4f/ab0d0806f4d818168d0ec833df14078c9d1ddddb5c42fa7bfb6f15ecbfa7/youtube_dl-2021.12.17.tar.gz
 git+https://github.com/Abhay3011/youtube-dl
