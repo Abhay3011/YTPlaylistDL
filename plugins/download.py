@@ -20,7 +20,7 @@ import math
 import asyncio
 import logging
 import threading
-import youtube-dl
+from youtube_dl import YoutubeDL
 from asyncio import get_running_loop
 from functools import partial
 from hachoir.metadata import extractMetadata
@@ -114,7 +114,7 @@ def time_formatter(milliseconds: int) -> str:
 def ytdl_dowload(url, opts):
     global is_downloading
     try:
-        with youtube-dl(opts) as ytdl:
+        with YoutubeDL(opts) as ytdl:
             ytdl.cache.remove()
             ytdl_data = ytdl.extract_info(url)
     except Exception as e:
