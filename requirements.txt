@@ -4,4 +4,6 @@ pyrogram==1.4.16
 tgcrypto
 youtube-dl
 uuid
-git+https://github.com/Abhay3011/youtube-dl
+cryptg
+beautifulsoup4
+bs4
